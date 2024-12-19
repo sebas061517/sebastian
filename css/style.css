@@ -1,0 +1,17 @@
+
+ #logo{ 
+    height: 10;
+    width: 10;
+ }
+
+
+
+ol {
+    width: 400;
+    margin: 15px;
+    line-height: 35px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+}
+

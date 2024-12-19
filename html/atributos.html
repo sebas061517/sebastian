@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+
+    <link rel="stylesheet" href=../css/style.css>
+</head>
+
+<body>
+
+    <header id="principio">
+        <section>
+
+            <img id="logo" src="../imagenes/html.png" alt="no existe">
+            <h2>contenidos</h2>
+            <a href="../index.html"> Inicio</a>
+            <a href="etiquetas.html">Etiquetas</a>
+            <a href="atributos.html">Atributos</a>
+            <a href="css.html">Css</a>
+            <a href="javascript.html">Javascript</a>
+            <a href="contacto.html">Contacto</a>
+            <a href="acercade.html">Acerca de</a>
+        </section>
+    </header>
+
+
+    <section>
+        <ol>
+        <h3>1-Atributos globales:</a></h3>
+        <li><a href="#class">class</a> </li>
+        <li><a href="#id">id</a></li>
+        <li><a href="#lang">Lang</a></li>
+        <li><a href="#style">style</a></li>
+        <li><a href="#tabindex">tabindex</a></li>
+        <li><a href="#accesskey">Accesskey</a></li>
+        <li><a href="contenteditable">ContentEditable</a></li>
+        <li><a href="#contextmenu">Contextmenu</a></li>
+        <li><a href="data">data</a></li>
+
+
+        </ol>
+    </section>
+    <section>
+        <ol>
+        <h3>>2-Atributos form</a>:</h3>
+        <li><a href="#name">name</a></li>
+        <li><a href="#target">target</a></li>
+        <li><a href="#style">style</a></li>
+        <li><a href="#action">Action</a></li>
+        <li><a href="method">Method</a></li>
+</ol>
+    </section>
+    <section>
+        <ol>
+        <h3>3-Atributos input:</a></h3>
+        <li><a href="#type">type</a></li>
+        <li><a href="#name1">Name</a></li>
+        <li><a href="value">Value</a></li>
+        </ol>
+    </section>
+
+    <section>
+        <ol></ol>
+        <h2 id="atributoglobales">>1-Atributos globales:</h2>
+        <h3 id="class">class:</h3>
+        <p>En HTML, el atributo class se usa para asignar una o más clases a un elemento HTML. Las clases son útiles para aplicar estilos con CSS o para seleccionar elementos con JavaScript.</p>
+    </ol>
+    </section>
+    <section>
+        <h3 id="id">id:</h3>
+        <p>En HTML, el atributo id se usa para asignar un identificador único a un elemento HTML. A diferencia de la
+            class, que puede ser utilizada en varios elementos, un id debe ser único dentro de un documento HTML, lo que
+            significa que no puede haber más de un elemento con el mismo id.</p>
+    </section>
+    <section>
+        <h3 id="lang">lang:</h3>
+        <p>En HTML, el atributo lang se utiliza para especificar el idioma del contenido de un documento o de una parte
+            específica de él. Esto es importante tanto para la accesibilidad como para los motores de búsqueda y
+            herramientas de traducción automática.</p>
+    </section>
+    <section>
+        <h3 id="style">style:</h3>
+        <p>En HTML, el atributo style se utiliza para aplicar estilos CSS directamente a un elemento HTML de forma
+            inline (en línea), es decir, dentro de la propia etiqueta HTML. El atributo style permite agregar reglas CSS
+            específicas para un solo elemento, sin necesidad de usar una hoja de estilo externa o interna.</p>
+    </section>
+    <section>
+        <h3 id="tabindex">tabindex</h3>
+        <p>El atributo tabindex en HTML se utiliza para controlar el orden de enfoque (focus) de los elementos
+            interactivos de una página web cuando el usuario navega a través de ellos utilizando la tecla Tab del
+            teclado. Es especialmente útil para mejorar la accesibilidad de las páginas web y para crear una navegación
+            eficiente mediante el teclado.</p>
+    </section>
+    <section>
+        <h3 id="accesskey">accesskey</h3>
+        <p>El atributo accesskey en HTML se utiliza para asignar una tecla de acceso directo a un elemento interactivo
+            en una página web, de modo que el usuario pueda activar ese elemento usando una combinación de teclas sin
+            necesidad de navegar hasta él con el ratón o el teclado. Esto es útil para mejorar la accesibilidad y
+            facilitar la navegación para usuarios que prefieren o necesitan utilizar el teclado.</p>
+    </section>
+    <section>
+        <h3 id="contenteditable">ContentEditable</h3>
+        <p>El atributo contenteditable en HTML se utiliza para hacer que un elemento de la página sea editable por el
+            usuario directamente en el navegador. Esto significa que el contenido del elemento puede ser modificado sin
+            necesidad de acceder a un formulario o a un backend. El atributo puede ser aplicado a cualquier elemento
+            HTML y convierte su contenido en editable de manera inmediata.</p>
+    </section>
+    <section>
+        <h3 id="contextmenu">contextmenu</h3>
+        <p>El atributo contextmenu en HTML se utiliza para asociar un menú contextual personalizado a un elemento. El
+            menú contextual es el que aparece al hacer clic derecho (o presionar la tecla correspondiente en algunos
+            dispositivos) sobre un elemento de una página web. Usualmente, este menú muestra opciones como "Copiar",
+            "Pegar", "Inspeccionar", entre otras, dependiendo del navegador y de la página.</p>
+    </section>
+    <section>
+        <h3 id="data">data</h3>
+        <p>El atributo data-* en HTML se utiliza para almacenar información personalizada en elementos HTML, que no
+            afecta al contenido visible ni al estilo de la página, pero permite que esa información esté disponible para
+            usarla con JavaScript, sin necesidad de agregar atributos adicionales que no tengan una semántica estándar
+            en HTML.</p>
+    </section>
+    <section>
+        <h2 id="atributosform">2-Atributos form:</h2>
+        <h3 id="name">name</h3>
+        <p>El atributo name en HTML se utiliza para asignar un nombre único a un elemento HTML, y su propósito varía
+            según el tipo de elemento al que se aplique. Este atributo es particularmente importante en formularios
+            HTML, donde se utiliza para identificar y enviar los datos del formulario al servidor.</p>
+    </section>
+    <section>
+        <h3 id="target">target</h3>
+        <p>El atributo name en HTML tiene varios usos importantes, pero su función principal es identificar un elemento
+            dentro de un formulario para que, al enviarse, los datos asociados con ese elemento sean enviados al
+            servidor con un nombre específico. A continuación, te explico sus principales usos y características.</p>
+    </section>
+    <section>
+        <h3 id="style">style</h3>
+        <p>El atributo style en HTML se utiliza para aplicar estilos CSS directamente a un elemento dentro del código
+            HTML. A través del atributo style, puedes especificar propiedades de estilo (como color, tamaño, márgenes,
+            etc.) directamente en el elemento, sin necesidad de usar un archivo externo o una sección &lt;style&gt; en
+            el encabezado del documento.</p>
+    </section>
+    <section>
+        <h3 id="action">Action</h3>
+        <p>El atributo action en HTML se utiliza en el elemento &lt;form&gt; para especificar la URL a la que se
+            enviarán los datos del formulario cuando este sea enviado. Es decir, el atributo action define la acción que
+            ocurrirá cuando el usuario envíe el formulario, generalmente indicando el servidor o recurso que debe
+            recibir y procesar los datos del formulario.</p>
+    </section>
+    <section>
+        <p id="method"> Method</p>
+        <p>El atributo method en HTML se utiliza en el elemento &lt;form&gt; para especificar el método HTTP que se
+            usará al enviar los datos del formulario al servidor. El valor de este atributo determina cómo los datos del
+            formulario se transmitirán al servidor (en la URL, en el cuerpo de la solicitud, etc.).</p>
+    </section>
+    <section>
+        <h2 id="atributosinput">Atributos input</h2>
+        <h3 id="type">type</h3>
+        <p>El atributo type en HTML se utiliza para especificar el tipo de un elemento en función del contexto en que se
+            utiliza, especialmente en formularios, donde se emplea para definir el tipo de un campo de entrada, botón, o
+            control en general. Este atributo puede tener diferentes valores según el tipo de elemento al que se
+            aplique.</p>
+    </section>
+    <section>
+        <h3 id="name1">Name</h3>
+        <p>El atributo name en HTML se utiliza para asignar un nombre único a un elemento dentro de un formulario. Este
+            nombre es clave porque permite que los datos del formulario sean identificados y enviados al servidor
+            correctamente. </p>
+    </section>
+    <section>
+        <h3 id="value">Value</h3>
+        <p>El atributo value en HTML se utiliza para definir el valor de un campo de formulario o de un control en un
+            formulario. Dependiendo del tipo de elemento en el que se utilice, el value puede representar el texto
+            predeterminado, el valor de un botón, o el dato que se enviará al servidor cuando el formulario sea enviado.
+        </p>
+    </section>
+    <hr>
+    <footer>
+        <div>
+            <h4>Sobre Nosotros</h4>
+            <p>Somos una empresa dedicada a ofrecer soluciones innovadoras para nuestros clientes.</p>
+        </div>
+        <div>
+            <h4>Contacto</h4>
+            <ul>
+                <li>Email: contacto@empresa.com</li>
+                <li>Teléfono: +34 123 456 789</li>
+                <li>Dirección: Calle Falsa 123, Ciudad, País</li>
+            </ul>
+        </div>
+        <div>
+            <h4>Síguenos</h4>
+            <ul>
+                <li><a href="https://facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="https://twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="https://instagram.com" target="_blank">Instagram</a></li>
+            </ul>
+        </div>
+        <div>
+            <p>&copy; 2024 Nombre de la Empresa. Todos los derechos reservados.</p>
+        </div>
+      </footer>
+
+
